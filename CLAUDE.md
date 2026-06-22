@@ -29,7 +29,37 @@ visualized in Apache Superset. You (Claude Code) also build the warehouse and ET
 - Don't invent column names — inspect the CSV or live schema first.
 
 ## Schema
-_To be filled in after we design the star schema._
+Fact — fact_order_lines
+- Grain: one order line (one product on one order).
+- Measures (additive → SUM): sales, quantity, discount, profit. Also days_to_ship.
+- order_id is a degenerate dimension (groups line items into orders).
+- source_row_id (UNIQUE) = CSV Row ID; the ETL idempotency anchor.
+- FKs: order_date_key→dim_date, ship_date_key→dim_date (same table, role-playing),
+  customer_key→dim_customer, product_key→dim_product,
+  geography_key→dim_geography, ship_mode_key→dim_ship_mode.
 
-## SQL generation rules
-_The NL→SQL system prompt — added once the schema exists._
+Dimensions
+- dim_date — date_key is YYYYMMDD integer; full_date, year, quarter, month_num/name,
+  day_of_week (ISO: 1=Mon), is_weekend.
+- dim_customer — customer_id (UNIQUE), customer_name, segment (Consumer|Corporate|Home Office).
+- dim_product — natural key composite (product_id, product_name); category, sub_category.
+- dim_geography — natural key composite (postal_code, city); state, region, country.
+- dim_ship_mode — ship_mode (Standard Class|Second Class|First Class|Same Day).
+
+## SQL generation rules (how to answer natural-language questions)
+
+- Analytical questions are answered with SELECT only. Never INSERT/UPDATE/DELETE/DDL
+  when answering a question.
+- Query through the star schema: aggregate from fact_order_lines, join dimensions for
+  labels. GROUP BY dimension attributes (category, region, segment...), not surrogate keys.
+- If unsure of a column name, introspect the live schema via the postgres MCP — never guess.
+- Respect these semantics:
+  - discount is FRACTIONAL (0–0.8), not a percentage; ×100 only for display.
+  - sales, quantity, profit are additive; profit can be negative.
+  - "number of orders" = COUNT(DISTINCT order_id); "line items" = COUNT(*).
+  - "placed/ordered" → join on order_date_key; "shipped" → ship_date_key.
+    date_key is YYYYMMDD integer (filter years as date_key BETWEEN 20160101 AND 20161231).
+- If a request is ambiguous (e.g. "top products" — by sales, quantity, or profit?),
+  state the assumption you make, or ask.
+- Always show the SQL you ran, then summarize the result in plain language; format
+  currency and percentages for readability. Use LIMIT for exploratory queries.
