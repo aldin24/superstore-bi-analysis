@@ -2,9 +2,29 @@
   "mcpServers": {
     "postgres": {
       "command": "docker",
-      "args": ["run", "-i", "--rm", "-e", "DATABASE_URI", "crystaldba/postgres-mcp", "--access-mode=unrestricted"],
+      "args": [
+        "run",
+        "-i",
+        "--rm",
+        "-e",
+        "DATABASE_URI",
+        "crystaldba/postgres-mcp",
+        "--access-mode=unrestricted"
+      ],
       "env": {
         "DATABASE_URI": "${DATABASE_URI}"
+      }
+    },
+    "brave-search": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@brave/brave-search-mcp-server",
+        "--transport",
+        "stdio"
+      ],
+      "env": {
+        "BRAVE_API_KEY": "${BRAVE_API_KEY}"
       }
     }
   }
