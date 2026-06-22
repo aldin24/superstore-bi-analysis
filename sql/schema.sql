@@ -133,3 +133,27 @@ CREATE INDEX idx_fol_customer    ON fact_order_lines (customer_key);
 CREATE INDEX idx_fol_product     ON fact_order_lines (product_key);
 CREATE INDEX idx_fol_geography   ON fact_order_lines (geography_key);
 CREATE INDEX idx_fol_order_id    ON fact_order_lines (order_id);
+
+
+-- --------------------------------------------------------
+-- dim_product_recommendations
+-- Web-enrichment dimension; one row per product × type × source.
+-- ETL upsert anchor: UNIQUE (product_key, recommendation_type, source_url)
+-- --------------------------------------------------------
+CREATE TABLE dim_product_recommendations (
+    recommendation_key  SERIAL       PRIMARY KEY,
+    product_key         INTEGER      NOT NULL
+                          REFERENCES dim_product(product_key),
+    recommendation_date DATE         NOT NULL,
+    recommendation_text TEXT         NOT NULL,
+    recommendation_type TEXT         NOT NULL,    -- description | use_case | market_segment
+    source_url          TEXT         NOT NULL,
+    UNIQUE (product_key, recommendation_type, source_url)
+);
+
+COMMENT ON TABLE  dim_product_recommendations                     IS 'Web-enrichment dimension — stores Brave Search intelligence linked to dim_product';
+COMMENT ON COLUMN dim_product_recommendations.recommendation_date IS 'Date the intelligence was gathered';
+COMMENT ON COLUMN dim_product_recommendations.recommendation_type IS 'description | use_case | market_segment';
+COMMENT ON COLUMN dim_product_recommendations.source_url          IS 'Lineage — URL of the web source used to derive this record';
+
+CREATE INDEX idx_dpr_product_key ON dim_product_recommendations (product_key);

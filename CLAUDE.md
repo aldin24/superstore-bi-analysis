@@ -50,6 +50,10 @@ Dimensions
 - dim_product — natural key composite (product_id, product_name); category, sub_category.
 - dim_geography — natural key composite (postal_code, city); state, region, country.
 - dim_ship_mode — ship_mode (Standard Class|Second Class|First Class|Same Day).
+- dim_product_recommendations — web-gathered intel on products (via Brave Search),
+  linked to dim_product. product_key (FK → dim_product), recommendation_date,
+  recommendation_text, recommendation_type (description|use_case|market_segment),
+  source_url (lineage). UNIQUE (product_key, recommendation_type) for idempotent upsert.
 
 ## SQL generation rules (how to answer natural-language questions)
 
@@ -68,3 +72,5 @@ Dimensions
   state the assumption you make, or ask.
 - Always show the SQL you ran, then summarize the result in plain language; format
   currency and percentages for readability. Use LIMIT for exploratory queries.
+- For "what do we know about product X" / qualitative product questions, join
+  dim_product_recommendations on product_key; note these are web-sourced (cite source_url).
