@@ -28,6 +28,11 @@ visualized in Apache Superset. You (Claude Code) also build the warehouse and ET
 - Show the DDL/SQL before running it; prefer small, reviewable steps.
 - Don't invent column names — inspect the CSV or live schema first.
 
+## Source data
+- Superstore.csv is latin-1 / ISO-8859-1 encoded; Order Date and Ship Date are MM/DD/YYYY.
+- dim_date must be generated to span ALL order AND ship dates (ship dates can fall after
+  the last order date), or fact FKs to dim_date will fail.
+
 ## Schema
 Fact — fact_order_lines
 - Grain: one order line (one product on one order).
