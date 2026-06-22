@@ -1,0 +1,212 @@
+[
+  {
+    "product_key": 1406,
+    "product_name": "Canon imageCLASS 2200 Advanced Copier",
+    "recommendations": [
+      {
+        "recommendation_type": "description",
+        "recommendation_text": "Monochrome 4-in-1 laser multifunction device (copy, print, fax, scan) with up to 17 ppm print speed, 15-second warm-up, optional 50-sheet ADF, optional network printing, and 33.6 Kbps fax. Can operate as a standalone digital copier or as a networked multifunction document processing system.",
+        "source_url": "https://ciis.canon.com/internet/portal/us/home/support/details/printers/support-laser-printers-imageclass/imageclass-2200/imageclass-2200"
+      },
+      {
+        "recommendation_type": "use_case",
+        "recommendation_text": "Standalone desktop copying and networked multifunction document processing. Suited for offices needing reliable monochrome copying, printing, faxing, and scanning from a single device without requiring a dedicated IT setup.",
+        "source_url": "https://ciis.canon.com/internet/portal/us/home/support/details/printers/support-laser-printers-imageclass/imageclass-2200/imageclass-2200"
+      },
+      {
+        "recommendation_type": "market_segment",
+        "recommendation_text": "Mid-sized offices and professional service firms requiring dependable, low-maintenance monochrome document processing. Strong demand among enterprises seeking affordable all-in-one copier solutions.",
+        "source_url": "https://www.accio.ai/find-product/canon-imageclass-2200-advanced-copier"
+      }
+    ]
+  },
+  {
+    "product_key": 454,
+    "product_name": "Fellowes PB500 Electric Punch Plastic Comb Binding Machine with Manual Bind",
+    "recommendations": [
+      {
+        "recommendation_type": "description",
+        "recommendation_text": "Electric punch, manual bind comb binding machine that combines a stapler, 3-hole punch, and comb binder in a single unit. Capable of binding documents up to 500 pages using a 2-inch plastic comb spine.",
+        "source_url": "https://www.fellowes.com/ca/en/catalog/business-machines/binding"
+      },
+      {
+        "recommendation_type": "use_case",
+        "recommendation_text": "Creating professionally bound reports, proposals, and presentations in an office setting. The electric punch speeds up high-volume document preparation while the manual bind step allows controlled assembly.",
+        "source_url": "https://www.fellowes.com/ca/en/catalog/business-machines/binding"
+      },
+      {
+        "recommendation_type": "market_segment",
+        "recommendation_text": "Office and business environments — including legal, administrative, and corporate teams — that regularly produce bound documents and need a reliable mid-volume binding solution.",
+        "source_url": "https://solomon-music.myshopify.com/products/352"
+      }
+    ]
+  },
+  {
+    "product_key": 1430,
+    "product_name": "Cisco TelePresence System EX90 Videoconferencing Unit",
+    "recommendations": [
+      {
+        "recommendation_type": "description",
+        "recommendation_text": "All-in-one personal videoconferencing system featuring a 24-inch HD display, PrecisionHD camera (F1.7), H.323/SIP support up to 6 Mbps, 1080p30 video, dual front speakers with integrated subwoofer, and HDMI output for a second display. Also serves as a PC monitor outside of calls.",
+        "source_url": "https://www.cisco.com/c/en/us/products/collateral/collaboration-endpoints/telepresence-system-ex-series/data_sheet_c78-627494.html"
+      },
+      {
+        "recommendation_type": "use_case",
+        "recommendation_text": "Desktop video conferencing for managers and team leaders needing high-definition face-to-face collaboration with customers, partners, and remote employees. Supports embedded MultiSite for up to four simultaneous locations in one call.",
+        "source_url": "https://cisco.ict-hardware.com/product/cisco-telepresence-system-ex90-3/"
+      },
+      {
+        "recommendation_type": "market_segment",
+        "recommendation_text": "Enterprise corporate teams with global operations and supply chain management needs. Targeted at managers and executives requiring immediate, high-quality remote presence with distributed stakeholders.",
+        "source_url": "https://studycorgi.com/cisco-telepresence-segmentation-market-and-values/"
+      }
+    ]
+  },
+  {
+    "product_key": 488,
+    "product_name": "HON 5400 Series Task Chairs for Big and Tall",
+    "recommendations": [
+      {
+        "recommendation_type": "description",
+        "recommendation_text": "Heavy-duty ergonomic task chair engineered specifically for big and tall users, with an extra-large cast aluminum base, height-adjustable arms, adjustable lumbar support, 360-degree swivel, and stain-resistant upholstery. Warranted to support up to 450 lbs.",
+        "source_url": "https://www.officeworld.com/shop/HON5403AB12T/14Q1/"
+      },
+      {
+        "recommendation_type": "use_case",
+        "recommendation_text": "Extended-duration seating for larger office workers requiring robust ergonomic support. Designed for daily use in professional workplace environments where standard chairs are inadequate for comfort and safety.",
+        "source_url": "https://designjournalmag.com/products/detail/2081-task-seating/18201-5400-series"
+      },
+      {
+        "recommendation_type": "market_segment",
+        "recommendation_text": "Corporate offices, government agencies, and facilities managers procuring specialized ergonomic furniture for employees who require big-and-tall seating solutions beyond standard office chair ranges.",
+        "source_url": "https://designjournalmag.com/products/detail/2081-task-seating/18201-5400-series"
+      }
+    ]
+  },
+  {
+    "product_key": 1187,
+    "product_name": "GBC DocuBind TL300 Electric Binding System",
+    "recommendations": [
+      {
+        "recommendation_type": "description",
+        "recommendation_text": "Electric binding system with advanced punching technology that punches up to 12 sheets of 20 lb./80 gram paper at once. Features an exclusive wire-holder design that allows document assembly during punching, making it easier to load paper onto the binding comb than previous systems.",
+        "source_url": "https://device.report/m/91c8221278fb5d8e269dc2b780585fee1785d66fc0837ac8ae177d9b6bd7ef0c"
+      },
+      {
+        "recommendation_type": "use_case",
+        "recommendation_text": "Professional document binding for offices producing reports, training manuals, and presentations. The assemble-as-you-punch workflow reduces handling steps and speeds up production of bound documents.",
+        "source_url": "https://device.report/m/91c8221278fb5d8e269dc2b780585fee1785d66fc0837ac8ae177d9b6bd7ef0c"
+      },
+      {
+        "recommendation_type": "market_segment",
+        "recommendation_text": "Small to mid-sized offices and administrative departments needing a reliable mid-volume electric binding solution for producing professional-quality bound documents on a regular basis.",
+        "source_url": "https://www.cnet.com/products/gbc-docubind-tl300-electric-binding-system/"
+      }
+    ]
+  },
+  {
+    "product_key": 698,
+    "product_name": "GBC Ibimaster 500 Manual ProClick Binding System",
+    "recommendations": [
+      {
+        "recommendation_type": "description",
+        "recommendation_text": "Manual ProClick binding system using a 32-hole punch pattern (3:1 pitch) with snap-close, zip-open spines. Allows bound documents to lie flat with 360-degree rotation, and pages can be added or removed post-binding using a special editing tool.",
+        "source_url": "https://www.laminator.com/gbc-proclick-binding-machines.html"
+      },
+      {
+        "recommendation_type": "use_case",
+        "recommendation_text": "Creating editable reports, sales proposals, and presentations where content needs to be customised or updated after initial binding. Particularly useful for field sales representatives who modify proposals on-site for individual clients.",
+        "source_url": "https://www.mybinding.com/binding/binding-machines/gbc-proclick.html"
+      },
+      {
+        "recommendation_type": "market_segment",
+        "recommendation_text": "Sales teams, consultants, and small professional offices that produce client-facing bound documents requiring flexibility for last-minute edits. Also suited for educators and trainers who update materials between sessions.",
+        "source_url": "https://www.mybinding.com/binding/binding-machines/gbc-proclick.html"
+      }
+    ]
+  },
+  {
+    "product_key": 308,
+    "product_name": "Hewlett Packard LaserJet 3310 Copier",
+    "recommendations": [
+      {
+        "recommendation_type": "description",
+        "recommendation_text": "HP LaserJet 3310 is a monochrome multifunction digital printer/copier from HP's 3300 series, combining printing and copying in a compact desktop unit. Part of HP's established LaserJet line known for speed, precision, and reliability in business environments.",
+        "source_url": "https://www.hp.com/us-en/shop/pdp/hp-laserjet-3310-digital-printer-copier"
+      },
+      {
+        "recommendation_type": "use_case",
+        "recommendation_text": "Monochrome document printing and copying for small to medium business environments. Suited for offices needing a dependable, low-cost-per-page laser solution for everyday document output.",
+        "source_url": "https://en.wikipedia.org/wiki/HP_LaserJet"
+      },
+      {
+        "recommendation_type": "market_segment",
+        "recommendation_text": "Small and medium enterprises, home office users, students, and public-sector divisions requiring affordable and reliable monochrome laser printing. HP LaserJet targets a broad B2B and B2C market from home users to Fortune 500 companies.",
+        "source_url": "https://www.marketing91.com/marketing-mix-hp-printers/"
+      }
+    ]
+  },
+  {
+    "product_key": 1657,
+    "product_name": "HP Designjet T520 Inkjet Large Format Printer - 24\" Color",
+    "recommendations": [
+      {
+        "recommendation_type": "description",
+        "recommendation_text": "Compact 24-inch color inkjet wide-format printer with 2400x1200 dpi resolution, roll paper support (61 cm x 45.7 m), and Wi-Fi/LAN/USB 2.0 connectivity. Supports HP Mobile Printing and HP ePrint & Share cloud connectivity for remote job submission.",
+        "source_url": "https://www.shi.com/Products/ProductDetail.aspx?ProductIdentity=34077042&SHISystemID=ShiCommodity"
+      },
+      {
+        "recommendation_type": "use_case",
+        "recommendation_text": "In-house printing of architectural designs, CAD drawings, GIS maps, construction plans, and large-format marketing presentations for small AEC teams. Eliminates the cost and delay of outsourcing wide-format print jobs.",
+        "source_url": "https://www.hp.com/us-en/shop/pdp/hp-designjet-t520-24-in-eprinter"
+      },
+      {
+        "recommendation_type": "market_segment",
+        "recommendation_text": "AEC (Architecture, Engineering, Construction) professionals, freelancers, interior designers, and construction offices requiring entry-level in-house large-format printing. Also targets technical/CAD/GIS teams replacing older plotters.",
+        "source_url": "https://www.hpplotter.co.uk/hp-designjet-t520"
+      }
+    ]
+  },
+  {
+    "product_key": 318,
+    "product_name": "GBC DocuBind P400 Electric Binding System",
+    "recommendations": [
+      {
+        "recommendation_type": "description",
+        "recommendation_text": "Heavy-duty full-featured electric punch, manual bind system. Punches up to 21 sheets of 20 lb./80 gram paper at once via electric push-button or hands-free foot pedal. Binds all paper sizes up to 11 inches plus oversize covers, and accommodates documents up to 425 sheets thick (2-inch comb). Includes auto-release jam stopper electronics.",
+        "source_url": "https://wirebids.com/bindery-and-finishing/lot/55513/gbc-docubind-p400-and-flat-rate-shipping-125?previous_qs=url%3Dapi/lots&page=1&per_page=50&search=&type=0&status=all&featured=0&latest=1&sort_by=newest&from_category=0&from_page=latest"
+      },
+      {
+        "recommendation_type": "use_case",
+        "recommendation_text": "High-volume document binding for large departments producing thick reports, compliance manuals, proposals, and training materials. The foot pedal enables hands-free operation for continuous high-throughput binding workflows.",
+        "source_url": "https://wirebids.com/bindery-and-finishing/lot/55513/gbc-docubind-p400-and-flat-rate-shipping-125?previous_qs=url%3Dapi/lots&page=1&per_page=50&search=&type=0&status=all&featured=0&latest=1&sort_by=newest&from_category=0&from_page=latest"
+      },
+      {
+        "recommendation_type": "market_segment",
+        "recommendation_text": "Large corporate departments, legal firms, financial institutions, and government agencies with high-volume daily binding needs. Positioned as a heavy-duty step up from mid-range electric binders for demanding professional environments.",
+        "source_url": "https://wirebids.com/bindery-and-finishing/lot/55513/gbc-docubind-p400-and-flat-rate-shipping-125?previous_qs=url%3Dapi/lots&page=1&per_page=50&search=&type=0&status=all&featured=0&latest=1&sort_by=newest&from_category=0&from_page=latest"
+      }
+    ]
+  },
+  {
+    "product_key": 1376,
+    "product_name": "High Speed Automatic Electric Letter Opener",
+    "recommendations": [
+      {
+        "recommendation_type": "description",
+        "recommendation_text": "High-speed automatic electric letter opener designed for processing large volumes of envelopes quickly and safely. Features fully enclosed blades, a non-skid base, and automatic activation on envelope insertion. Available in desktop and commercial heavy-duty configurations.",
+        "source_url": "https://www.officedepot.com/b/electronic-letter-openers/N-1159766"
+      },
+      {
+        "recommendation_type": "use_case",
+        "recommendation_text": "High-volume mail processing in corporate mailrooms, government agencies, and financial institutions where large quantities of incoming envelopes must be opened quickly, consistently, and safely without manual effort.",
+        "source_url": "https://www.whitakerbrothers.com/collections/letter-openers"
+      },
+      {
+        "recommendation_type": "market_segment",
+        "recommendation_text": "Corporate mailrooms, government departments, banks, insurance companies, and any large office handling high daily inbound mail volume. Also suits medium-sized offices transitioning from manual envelope opening to automated solutions.",
+        "source_url": "https://www.martinyale-machines.com/collections/letter-openers"
+      }
+    ]
+  }
+]
